@@ -13,9 +13,9 @@ for i in list_:
     words = i.split()
     for word in words:
         if len(word)>max_num:
+            dict_.clear()
             max_num = len(word)
             dict_[word] = max_num
-print(max_num)
 print(dict_)
 
         
